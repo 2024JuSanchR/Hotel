@@ -13,6 +13,7 @@ import javax.validation.constraints.Pattern;
 @NoArgsConstructor
 @Table(name = "reserva")
 public class Reserva {
+	
     @Id
     @GeneratedValue( strategy = GenerationType.IDENTITY)
     private Long id;
